@@ -1,4 +1,5 @@
 		<!--================ Start Newsletter Area =================-->
+		<!-- added git rep ci/cd -->
         <section class="newsletter_area">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
