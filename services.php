@@ -17,7 +17,7 @@
     <!--================ End Banner Area =================-->
 
 	<!--================ Start Features Area =================-->
-    <?php include 'feautres.php'; ?>
+    <?php include ('features.php'); ?>
     <!--================ End Features Area =================-->
 
 	<!--================ Start Testimonial Area =================-->
@@ -119,7 +119,7 @@
     <!--================ End Testimonial Area =================-->
 
     <!-- skills -->
-
+    <?php include('skills.php') ?>
     <!-- skills -->
     
   
