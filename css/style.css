@@ -3322,10 +3322,19 @@ h6 {
   height: auto;
   border-radius: 10px;
 }
+.tools-grid {
+  /* center the image */
+  height: 180px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tools-grid img {
-  width: 100%;
-  height: 100px;
+  width: auto;
+  height: 121px;
   border-radius: 10px;
+ 
 }
 
 /* spinner */
@@ -3367,3 +3376,4 @@ h6 {
 .feature_item h1{
   color: blue;
 }
+
