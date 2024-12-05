@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
     <!--================ Start Banner Area =================-->
-    <section class="banner_area">
+    <section class="banner_area pb-5">
         <div class="banner_inner d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
@@ -17,7 +17,7 @@
     <!--================ End Banner Area =================-->
 
 	<!--================ Start Features Area =================-->
-    <?php include ('features.php'); ?>
+     <?php include('features.php'); ?>
     <!--================ End Features Area =================-->
 
 	<!--================ Start Testimonial Area =================-->

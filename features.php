@@ -1,4 +1,4 @@
-<?php  ?>
+
 <section class="features_area">
 <div class="container">
     <div class="row justify-content-center">
@@ -58,4 +58,3 @@
     </div>
 </div>
 </section>
-<?php ?>

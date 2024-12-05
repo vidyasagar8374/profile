@@ -151,12 +151,9 @@
 	<!--================ End Brand Area =================-->
 
 	<!--================ Start Features Area =================-->
-	<?php 
-
-include 'feautres.php'; ?>
+	<?php include ('features.php'); ?>
 
 	<!--================ End Features Area =================-->
-
 
 
 
@@ -460,8 +457,8 @@ include 'feautres.php'; ?>
 <!-- ==================skills 2 ===============================-->
 
 <?php 
-include 'skills.php';
-include 'footer.php'; 
+include ('skills.php');
+include ('footer.php');
 ?>
 
 

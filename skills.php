@@ -1,4 +1,4 @@
-<?php ?>
+
 	<!-- ==================skills 2 ===============================-->
     <div class="container my-5 section_gap_bottom">
 			<!-- <h1 class="text-center mb-4">Image Grid</h1> -->
@@ -39,5 +39,3 @@
 		</div>
     
 <!-- ==================skills 2 ===============================-->
-
-<?php ?>

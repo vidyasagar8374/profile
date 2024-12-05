@@ -15,7 +15,7 @@
         </div>
     </section>
     <!--================ End Banner Area =================-->
-    
+
    <!--================ Start About Us Area =================-->
 	<section class="about_area section_gap">
         <div class="container">
@@ -47,7 +47,7 @@
         </div>
     </section>
     <!--================ End About Us Area =================-->
-
+    
 	<!--================ Srart Brand Area =================-->
 	<section class="brand_area section_gap_bottom">
         <div class="container">
@@ -140,7 +140,11 @@
         </div>
     </section>
     <!--================ End Brand Area =================-->
-
+        <!-- skills -->
+        <?php 
+    include ('skills.php');
+        ?>
+    <!-- skills -->
 	<!--================ Start Testimonial Area =================-->
 	<div class="testimonial_area section_gap_bottom">
         <div class="container">

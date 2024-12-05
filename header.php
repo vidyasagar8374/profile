@@ -18,6 +18,8 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
