@@ -18,11 +18,12 @@ try {
     $mail = new PHPMailer(true);
     // Server settings
     $mail->isSMTP();                                      // Use SMTP
-    $mail->Host       = 'vsdev.in';        // Mailtrap SMTP server
-    $mail->SMTPAuth   = true;                             // Enable SMTP authentication
-    $mail->Port       = 587;                             // TCP port for Mailtrap
-    $mail->Username   = 'vidyasagar@vsdev.in';                 // Mailtrap username
-    $mail->Password   = 'Sagar@837400';                 // Mailtrap password
+    $mail->Host       = 'smtp.hostinger.com';  // Hostinger SMTP server
+    $mail->SMTPAuth   = true;                  // Enable SMTP authentication
+    $mail->Username   = 'vidyasagar@vsdev.in'; // Your full email address
+    $mail->Password   = 'Sagar@837400';       // Your email password
+    $mail->SMTPSecure = 'tls';                 // Enable TLS encryption; use 'ssl' if needed
+    $mail->Port       = 587;                 // Mailtrap password
     // Recipients
     $mail->setFrom('your-email@gmail.com', 'Your Name');  // Sender's email and name
     $mail->addAddress('recipient@example.com', 'Recipient Name'); // Add recipient
