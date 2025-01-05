@@ -16,14 +16,18 @@ try {
     $cmessage = $_REQUEST['message'];
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
-    // Server settings
-    $mail->isSMTP();                                      // Use SMTP
-    $mail->Host       = 'smtp.hostinger.com';  // Hostinger SMTP server
-    $mail->SMTPAuth   = true;                  // Enable SMTP authentication
-    $mail->Username   = 'vidyasagar@vsdev.in'; // Your full email address
-    $mail->Password   = 'Sagar@837400';       // Your email password
-    $mail->SMTPSecure = 'ssl';                 // Enable TLS encryption; use 'ssl' if needed
-    $mail->Port       = 465;                 // Mailtrap password
+
+    // SMTP configuration
+    $mail->isSMTP();
+    $mail->Host = 'smtp.hostinger.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'vidyasagar@vsdev.in';
+    $mail->Password = 'Sagar@837400';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 465;
+
+
+
     // Recipients
     $mail->setFrom('your-email@gmail.com', 'Your Name');  // Sender's email and name
     $mail->addAddress('recipient@example.com', 'Recipient Name'); // Add recipient
