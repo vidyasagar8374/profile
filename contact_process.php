@@ -23,7 +23,7 @@ try {
     $mail->Username   = 'vidyasagar@vsdev.in'; // Your full email address
     $mail->Password   = 'Sagar@837400';       // Your email password
     $mail->SMTPSecure = 'tls';                 // Enable TLS encryption; use 'ssl' if needed
-    $mail->Port       = 587;                 // Mailtrap password
+    $mail->Port       = 465;                 // Mailtrap password
     // Recipients
     $mail->setFrom('your-email@gmail.com', 'Your Name');  // Sender's email and name
     $mail->addAddress('recipient@example.com', 'Recipient Name'); // Add recipient
