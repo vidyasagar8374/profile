@@ -43,6 +43,13 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="feature_item">
+            <h1><i class="bi bi-cart4"></i></h1>
+                <h5>E-commerce</h5>
+                <p>Develop, and optimize E-commerce websites, with expertise in payment gateways, shipping, and order management systems.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="feature_item">
                 <h1><i class="bi bi-search"></i></h1>
                 <h5>SEO Optimization</h5>
                 <p>Improve website visibility and search engine rankings using keyword research, on-page optimization, link building, and technical SEO techniques.</p>
@@ -55,6 +62,7 @@
                 <p>Manage website hosting, deployment, and maintenance on platforms like AWS, Godaddy,Hostinger</p>
             </div>
         </div>
+        
     </div>
 </div>
 </section>

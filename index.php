@@ -162,7 +162,7 @@
 		<!-- add image responsive full width -->
 		<div class="col-lg-12 col-sm-12 col-md-12">
 			<div class="stage-grid text-center">
-				<img src="./img/brands/Stages-of-Software-Development-Process.jpg" alt="" class="image-fluid w-100">
+				<img src="./img/brands/Stages-of-Software-Development-Process.jpg" alt="" class="img-fluid">
 			</div>
 			
 		</div>

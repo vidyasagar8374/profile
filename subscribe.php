@@ -34,8 +34,8 @@ try {
     $mail->Port = 587;              // Mailtrap password
 
     // Recipients
-    $mail->setFrom('your-email@gmail.com', 'Your Name');  // Sender's email and name
-    $mail->addAddress('recipient@example.com', 'Recipient Name'); // Add recipient
+    $mail->setFrom('vidyasagar@vsdev.in', 'Your Name');  // Sender's email and name
+    $mail->addAddress('vidyasagar@vsdev.in', 'Recipient Name'); // Add recipient
 
     // Email content
     $mail->isHTML(true);                                  // Set email format to HTML
@@ -53,7 +53,7 @@ try {
 } catch (Exception $e) {
     ob_clean();
     // Handle errors and respond with error details
-    header('Content-Type: application/json', true, 500);
+    header('Content-Type: application/json');
     echo json_encode(['success' => false, 'error' => $e->getMessage()]);
 }
 ?>

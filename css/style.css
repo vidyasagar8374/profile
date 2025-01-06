@@ -3317,11 +3317,6 @@ h6 {
 /*---------------------------------------------------- */
 
 
-.stage-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
 .tools-grid {
   /* center the image */
   height: 180px;
@@ -3379,8 +3374,7 @@ h6 {
 
 /* steps */
 .stage-grid img {
-  width: auto;
-  height: auto;
+ 
   border-radius: 10px;
 }
 /* steps */
