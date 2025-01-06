@@ -7,7 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
-
+ob_start();
 // Start processing
 try {
     // Sanitize and validate email input
@@ -24,12 +24,14 @@ try {
     $mail = new PHPMailer(true);
 
     // Server settings
-    $mail->isSMTP();                                      // Use SMTP
-    $mail->Host       = 'sandbox.smtp.mailtrap.io';        // Mailtrap SMTP server
-    $mail->SMTPAuth   = true;                             // Enable SMTP authentication
-    $mail->Port       = 2525;                             // TCP port for Mailtrap
-    $mail->Username   = 'ea2b03bf50f93c';                 // Mailtrap username
-    $mail->Password   = '8a7964c9b0ccb4';                 // Mailtrap password
+    $mail->isSMTP();
+    $mail->Host = 'smtp.hostinger.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'vidyasagar@vsdev.in';
+    $mail->Password = 'Sagar@837400';
+    $mail->SMTPSecure = 'tls';
+    $mail->SMTPDebug = 0;
+    $mail->Port = 587;              // Mailtrap password
 
     // Recipients
     $mail->setFrom('your-email@gmail.com', 'Your Name');  // Sender's email and name
@@ -43,12 +45,13 @@ try {
 
     // Send the email
     $mail->send();
-
+    ob_clean();
     // Respond with a success message
     header('Content-Type: application/json');
     echo json_encode(['success' => true, 'message' => 'Subscription email sent successfully.']);
 
 } catch (Exception $e) {
+    ob_clean();
     // Handle errors and respond with error details
     header('Content-Type: application/json', true, 500);
     echo json_encode(['success' => false, 'error' => $e->getMessage()]);
