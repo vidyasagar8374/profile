@@ -7,7 +7,7 @@
 					<div class="subscription_box text-center">
 						<h2 class="text-uppercase text-white">get update from anywhere</h2>
 						<p class="text-white">
-							Bearing Void gathering light light his eavening unto dont afraid. 
+							
 						</p>
 						<div class="subcribe-form">
 							<form  action="" class="subscription relative">
@@ -41,10 +41,10 @@
 							<h4>Follow Me</h4>
 						</div>
 						<div class="footer_social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="https://wa.me/918519896519" target="_blank"><i class="fa fa-whatsapp"></i></a>
 							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
 						</div>
 					</div>
 				</div>

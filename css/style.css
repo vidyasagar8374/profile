@@ -2527,6 +2527,7 @@ h6 {
       margin: 0px auto;
       margin-bottom: 30px; } }
   .single-brand-item .d-table-cell {
+    background-color: #DAD2D8;
     vertical-align: middle; }
   .single-brand-item img {
     max-width: 80px;
@@ -2541,12 +2542,12 @@ h6 {
   .single-brand-item:hover {
     border: 1px solid transparent;
     box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15); }
-    .single-brand-item:hover img {
+    /* .single-brand-item:hover img {
       filter: brightness(0%);
       -o-filter: brightness(0%);
       -ms-filter: brightness(0%);
       -moz-filter: brightness(0%);
-      -webkit-filter: brightness(0%); }
+      -webkit-filter: brightness(0%); } */
 
 .client-info {
   padding: 25px 30px;
@@ -3294,8 +3295,8 @@ h6 {
     .footer_area .footer_social a {
       padding: 0 20px; }
       .footer_area .footer_social a i {
-        color: #788489;
-        font-size: 22px;
+        color: #0F8B8D;
+        font-size: 33px;
         -webkit-transition: all 0.4s ease 0s;
         -moz-transition: all 0.4s ease 0s;
         -o-transition: all 0.4s ease 0s;
